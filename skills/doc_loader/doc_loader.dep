@@ -1,0 +1,13 @@
+# 1. Create a virtual environment
+python3 -m venv venv
+
+# 2. Activate it
+source venv/bin/activate
+
+# 3. Upgrade pip and install libraries
+pip install --upgrade pip
+pip install langchain openai chromadb beautifulsoup4
+pip install -U langchain-community 
+pip install -U "sentence-transformers==2.6.1" "transformers==4.38.2"
+
+
