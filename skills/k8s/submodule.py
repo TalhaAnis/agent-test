@@ -24,7 +24,7 @@ def describe():
     info = {
         "name": "k8s",
         "description": (
-            "(v1.0.0) This is an Intelligent Kubernetes skill that executes kubectl commands. "
+            "(v1.0.1) This is an Intelligent Kubernetes skill that executes kubectl commands. "
             "Supports pods, deployments, services, etc. with fuzzy matching, LLM-powered inference, and safe disambiguation."
         ),
         "commands": [],
